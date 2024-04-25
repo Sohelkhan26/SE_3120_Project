@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LogIn">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/adminLogInID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:rotationX="4"
+            android:text="ADMIN" />
+        <Button
+            android:id="@+id/doctorLogInID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:rotationX="4"
+            android:text="DOCTOR" />
+        <Button
+            android:id="@+id/hospitalLogInID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:rotationX="4"
+            android:text="HOSPITAL" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="82dp"
+        android:text="LOG IN"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/logInCardID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID card"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/logInEmailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="E-mail"
+        android:layout_marginBottom="20sp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/logInPasswordID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/logInButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Log In" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Haven't Registered Yet?" />
+
+    <Button
+        android:id="@+id/toSignUpButtonID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:backgroundTint="@color/black"
+        />
+
+
+</LinearLayout>

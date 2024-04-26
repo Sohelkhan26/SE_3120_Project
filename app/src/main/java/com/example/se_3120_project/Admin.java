@@ -49,7 +49,7 @@ public class Admin extends AppCompatActivity {
                                 if(getPass.equals(passTxt))
                                 {
                                     Toast.makeText(Admin.this,"Successfully Logged In",Toast.LENGTH_SHORT).show();
-//                                    startActivity(new Intent(Admin.this, Hospital_Name.class));
+                                    startActivity(new Intent(Admin.this, Hospital_Name.class));
                                 }
                                 else
                                 {

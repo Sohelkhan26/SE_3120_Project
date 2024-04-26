@@ -93,12 +93,12 @@ public class LogIn extends AppCompatActivity {
         });
 
 
-//        adminButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(LogIn.this, Admin.class));
-//            }
-//        });
+        adminButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LogIn.this, Admin.class));
+            }
+        });
 //
 //        doctorBtn.setOnClickListener(new View.OnClickListener() {
 //            @Override

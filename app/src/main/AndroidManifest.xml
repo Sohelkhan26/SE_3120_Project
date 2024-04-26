@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SE_3120_Project"
         tools:targetApi="31">
         <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
             android:name=".SignUp"
             android:exported="false" />
         <activity

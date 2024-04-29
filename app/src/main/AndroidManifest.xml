@@ -13,9 +13,6 @@
         android:theme="@style/Theme.SE_3120_Project"
         tools:targetApi="31">
         <activity
-            android:name=".Doctor_Log_In"
-            android:exported="false" />
-        <activity
             android:name=".Hospital_Name"
             android:exported="false" />
         <activity

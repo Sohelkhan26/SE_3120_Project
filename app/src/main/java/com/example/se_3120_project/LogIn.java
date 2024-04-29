@@ -100,12 +100,12 @@ public class LogIn extends AppCompatActivity {
             }
         });
 //
-        doctorBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LogIn.this, Doctor_Log_In.class));
-            }
-        });
+//        doctorBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(LogIn.this, Doctor_Log_In.class));
+//            }
+//        });
 //
 //        hospitalBtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
